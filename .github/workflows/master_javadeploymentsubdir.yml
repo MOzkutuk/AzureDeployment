@@ -49,5 +49,5 @@ jobs:
         with:
           app-name: 'JavaDeploymentSubDir'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_BAA0950FC3AA4466AF7CCC6B3ED6C601 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_1B00D59A8F7342B0917C2D531E84F7DB }}
           package: '*.war'
